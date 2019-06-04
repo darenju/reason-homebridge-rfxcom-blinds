@@ -1,5 +1,6 @@
 {
   "files.exclude": {
+    "build/": true,
     "**/.DS_Store": true,
     "**/.merlin": true,
     "**/.bsb.lock": true,
