@@ -1,16 +1,12 @@
-# reason-react-hooks-template
+# reason-homebridge-rfxcom-blinds
 
-## Install project
+This project is supposed to work along with [homebridge-rfxcom-api](https://github.com/darenju/homebridge-rfxcom-api). It gives a front interface to control your RFXCom blinds.
 
-Clone this repository to get started and install dependencies:
+## Installation
+
+You just need to install this project and its dependencies, then you can start the express server:
 
 ```
-git clone --depth=1 https://github.com/darenju/reason-react-hooks-boilerplate.git
 npm install
-# Or using Yarn
-yarn install
+npm run server
 ```
-
-## Run Project
-
-You can check out the scripts available in `package.json`, but they’re basically the same that you can find in the `react-hooks` bsb theme.
