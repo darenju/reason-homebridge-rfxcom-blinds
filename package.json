@@ -1,15 +1,15 @@
 {
   "name": "reason-homebridge-rfxcom-blinds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world",
+    "build:re": "bsb -make-world",
+    "start:re": "bsb -make-world -w",
+    "clean:re": "bsb -clean-world",
     "webpack": "webpack -w",
     "webpack:production": "NODE_ENV=production webpack",
     "webpack:dev": "webpack-dev-server",
-    "server": "node server.js",
-    "postinstall": "npm install; webpack:production"
+    "build": "npm run build:re; npm run webpack:production",
+    "start": "node server.js"
   },
   "keywords": [
     "BuckleScript"
@@ -19,7 +19,6 @@
   "dependencies": {
     "@glennsl/bs-json": "^4.0.0",
     "bs-fetch": "^0.4.0",
-    "copy-webpack-plugin": "^5.0.3",
     "express": "^4.17.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
@@ -27,6 +26,7 @@
   },
   "devDependencies": {
     "bs-platform": "^5.0.4",
+    "copy-webpack-plugin": "^5.0.3",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.0.1",
     "webpack-cli": "^3.1.1",

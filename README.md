@@ -4,14 +4,15 @@ This project is supposed to work along with [homebridge-rfxcom-api](https://gith
 
 ## Installation
 
-You just need to install this package, then the dependencies will automatically install. After that, a script will run and build the latest version of the interface, then you can start the express server:
+You need to install the package from npm, then build the interface, and eventually run it:
 
 ```
 # Install the package
 npm install reason-homebridge-rfxcom-blinds
-# … installing and building…
+# Build
+npm run build
 # Run the server
-npm run server
+npm start
 ```
 
 Once you run the server, the interface is accessible on port 4000 of your machine.
