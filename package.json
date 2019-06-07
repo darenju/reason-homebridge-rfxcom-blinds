@@ -1,6 +1,6 @@
 {
   "name": "reason-homebridge-rfxcom-blinds",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "build:re": "bsb -make-world",
     "start:re": "bsb -make-world -w",
