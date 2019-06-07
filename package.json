@@ -5,10 +5,10 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack -w",
     "webpack:production": "NODE_ENV=production webpack",
-    "server": "webpack-dev-server"
+    "webpack:dev": "webpack-dev-server",
+    "server": "node server.js"
   },
   "keywords": [
     "BuckleScript"
@@ -19,6 +19,7 @@
     "@glennsl/bs-json": "^4.0.0",
     "bs-fetch": "^0.4.0",
     "copy-webpack-plugin": "^5.0.3",
+    "express": "^4.17.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "reason-react": ">=0.7.0"
