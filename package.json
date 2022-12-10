@@ -19,7 +19,7 @@
   "dependencies": {
     "@glennsl/bs-json": "^4.0.0",
     "bs-fetch": "^0.4.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "reason-react": ">=0.7.0"
